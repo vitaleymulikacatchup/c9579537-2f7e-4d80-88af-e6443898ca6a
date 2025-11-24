@@ -9,7 +9,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { GraduationCap, Users, Award, Globe, BookOpen, Lightbulb, Smile, BookMarked, Rocket, Activity, Palette, Zap, Star, HelpCircle, Mail } from "lucide-react";
+import { GraduationCap, Users, Award, Globe, BookOpen, Lightbulb, Smile, BookMarked, Rocket, Activity, Palette, Zap, Star, HelpCircle, Mail, Calendar } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -243,12 +243,12 @@ export default function LandingPage() {
       <div id="contact" data-section="contact">
         <ContactCenter
           tag="Get in Touch"
-          title="Begin Your Journey at India International School"
-          description="Ready to join our diverse community of learners? Contact our admissions team today to schedule a campus visit and learn more about our programs."
+          title="Join Our Community of Global Learners"
+          description="Ready to start your educational journey? Connect with our admissions team to learn more about our programs and schedule a personal campus tour."
           tagIcon={Mail}
           inputPlaceholder="Enter your email address"
           buttonText="Get Information"
-          termsText="We respect your privacy and will only use your information to send you admissions-related communications."
+          termsText="By providing your email, you agree to receive information about admissions, events, and school updates. We respect your privacy and you can unsubscribe anytime."
         />
       </div>
 
