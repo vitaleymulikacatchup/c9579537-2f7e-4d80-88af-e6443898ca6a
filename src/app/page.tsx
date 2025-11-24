@@ -9,7 +9,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { GraduationCap, Users, Award, Globe, BookOpen, Lightbulb, Smile, BookMarked, Rocket, Activity, Palette, Zap, Star, HelpCircle, Mail } from "lucide-react";
+import { GraduationCap, Users, Award, Globe, BookOpen, Lightbulb, Smile, BookMarked, Rocket, Activity, Palette, Zap, Star, HelpCircle, Mail, ArrowRight } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -61,7 +61,7 @@ export default function LandingPage() {
               imageAlt: "Modern school campus building"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35ggfqwTaDTPV7ncegJJc94SZmR/uploaded-1763970257602-wskaius7.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_35ggfqwTaDTPV7ncegJJc94SZmR/uploaded-1763970258393-c68a4yxa.jpg",
               imageAlt: "Students participating in outdoor activities"
             },
             {
@@ -123,17 +123,29 @@ export default function LandingPage() {
             {
               title: "Early Years Program",
               description: "Nurturing young learners through play-based, developmentally appropriate learning experiences that foster curiosity and confidence.",
-              icon: Smile
+              icon: Smile,
+              button: {
+                text: "Learn More",
+                href: "contact"
+              }
             },
             {
               title: "Primary Education",
               description: "Strong foundation in academics with emphasis on literacy, numeracy, and developing lifelong learning skills in a supportive environment.",
-              icon: BookMarked
+              icon: BookMarked,
+              button: {
+                text: "Explore Program",
+                href: "contact"
+              }
             },
             {
               title: "Secondary Education",
               description: "Advanced curriculum preparing students for university with IGCSE, IB, and vocational pathways tailored to individual aspirations.",
-              icon: Rocket
+              icon: Rocket,
+              button: {
+                text: "View Details",
+                href: "contact"
+              }
             },
             {
               title: "Sports & Athletics",
