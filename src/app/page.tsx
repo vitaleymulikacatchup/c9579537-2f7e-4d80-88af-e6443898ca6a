@@ -71,11 +71,11 @@ export default function LandingPage() {
           ]}
           buttons={[
             {
-              text: "Start Admissions",
+              text: "Apply Now",
               href: "contact"
             },
             {
-              text: "Explore Programs",
+              text: "Schedule Tour",
               href: "features"
             }
           ]}
